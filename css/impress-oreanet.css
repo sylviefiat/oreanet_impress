@@ -194,13 +194,13 @@ video {
 */
 .impress-enabled .step {
     margin: 0;
-    opacity: 0.3;
+    /*opacity: 0.3;
 
     -webkit-transition: opacity 1s;
     -moz-transition:    opacity 1s;
     -ms-transition:     opacity 1s;
     -o-transition:      opacity 1s;
-    transition:         opacity 1s;
+    transition:         opacity 1s;*/
 }
 
 .impress-enabled .step.active { opacity: 1 }
@@ -301,6 +301,17 @@ h1 {
 
 video {
    text-align: center;
+}
+
+.impress-enabled .step {
+    
+}
+
+.impress-enabled .step.active .bgText {   
+    background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+    background: rgba(204, 204, 204, 0.7);
+    border-radius: 50px;
+    border: none;
 }
 
 /*
